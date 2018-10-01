@@ -2,7 +2,7 @@
 <p id="notice"><%= notice %></p>
   <div class="form-group">
     <p>
-      <strong>Name:</strong>
+      <strong>Nome:</strong>
       <div class="form-control">
         <%= @category.name %>
       </div>
@@ -11,13 +11,13 @@
 
   <div class="form-group">
     <p>
-      <strong>Description:</strong>
+      <strong>Descrição:</strong>
       <textarea class="form-control">
         <%= @category.description %>
       </textarea>
     </p>
   </div>
 
-    <!-- <button type="button" class="btn"><%= link_to 'Edit', edit_category_path(@category), class: "btn btn-success"  %></button> -->
-    <%= link_to 'Back', categories_path, class: "btn btn-secondary"  %>
+    <!-- <button type="button" class="btn"><%= link_to 'Editar', edit_category_path(@category), class: "btn btn-success"  %></button> -->
+    <%= link_to 'Voltar', categories_path, class: "btn btn-secondary"  %>
 </div>
