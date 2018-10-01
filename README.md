@@ -6,19 +6,15 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+2.5.1
 
-* System dependencies
+* Rails version
+5.2.1
 
-* Configuration
+* Database
+Development Sqlite3,
+Production Postgresql
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Caso queira fazer algum teste
+Optei por deixar os botões de editar e apagar ocultos, então pela url mantive os os mesmos comandos.
+Somente clicar em 'Show/Mostrar' e na URL adicionar um " /edit "
