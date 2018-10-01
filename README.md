@@ -16,5 +16,13 @@ Development Sqlite3,
 Production Postgresql
 
 * Caso queira fazer algum teste
-Optei por deixar os botões de editar e apagar ocultos, então pela url mantive os os mesmos comandos.
-Somente clicar em 'Show/Mostrar' e na URL adicionar um " /edit "
+Optei por deixar os botões de nova categoria, novo produto, editar e apagar ocultos, então pela url mantive alguns dos comandos.
+
+* Nova Categoria ou Produto
+Entrar na página principal de categorias ou produtos e adicionar " /new "na URL.
+
+* Editar
+Somente clicar em 'Mostrar' e na URL adicionar um " /edit " após o número indicado da categoria ou produto.
+
+* Visualização
+Para melhor visualização também adicionei as rotas tanto para categorias e produtos em .PNG na raiz do projeto.
