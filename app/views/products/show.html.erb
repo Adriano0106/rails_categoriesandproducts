@@ -1,0 +1,32 @@
+<div class="centered">
+<p id="notice"><%= notice %></p>
+  <div class="form-group">
+    <p>
+      <strong>Category:</strong>
+      <div class="form-control">
+        <%= @product.category.name %>
+      </div>
+    </p>
+  </div>
+
+  <div class="form-group">
+    <p>
+      <strong>Name:</strong>
+      <div class="form-control">
+        <%= @product.name %>
+      </div>
+    </p>
+  </div>
+
+  <div class="form-group">
+    <p>
+      <strong>Description:</strong>
+      <textarea class="form-control">
+        <%= @product.description %>
+      </textarea>
+    </p>
+  </div>
+
+    <!-- <button type="button" class="btn btn-success"><%= link_to 'Edit', edit_product_path(@product), class: "btn"  %></button> -->
+    <%= link_to 'Back', products_path, class: "btn btn-secondary"  %>
+</div>
