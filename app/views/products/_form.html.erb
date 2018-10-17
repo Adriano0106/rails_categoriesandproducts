@@ -26,8 +26,6 @@
     <%= collection_select(:product, :category_id, @category_options_for_select, :id, :name, {class: 'form-control'}) %>
   </div>
 
-  <div class="btn btn-info">
-    <%= form.submit %>
-  </div>
+  <%= form.submit :Confirmar, class:"btn btn-success" %>
 
 <% end %>
